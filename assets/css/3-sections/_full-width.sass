@@ -1,0 +1,232 @@
+.full-width
+    display: table
+    width: 100%
+    background-color: #f1fbff
+    padding-top: 85px
+    padding-bottom: 90px
+    position: relative
+    +desktop
+        padding-top: 50px
+        padding-bottom: 50px
+    +mobile
+        padding-top: 40px
+    +iphone
+        padding-bottom: 10px
+
+    h2
+        width: 40%
+        display: block
+        font-size: 30px
+        color: #000
+        font-family: "novecento_normal", serif
+        text-transform: uppercase
+        margin-bottom: 0
+        +desktop
+            font-size: 26px
+            width: 65%
+            margin-bottom: 10px
+        +tablet
+            margin-left: auto
+            margin-right: auto
+        +mobile
+            width: 100%
+        +iphone
+            font-size: 20px
+            margin-bottom: 0
+
+        strong
+            font-family: "novecento_bold", serif
+
+    h3
+        font-size: 90px
+        font-family: "novecento_bold", serif
+        color: #91d2e9
+        text-transform: uppercase
+        margin-bottom: 30px
+        +desktop
+            font-size: 75px
+            margin-bottom: 25px
+        +tablet
+            margin-bottom: 30px
+        +mobile
+            font-size: 70px
+        +iphone
+            font-size: 42px
+            margin-bottom: 15px
+
+    h4
+        color: #000
+        text-transform: uppercase
+        font-family: "Open Sans", sans-serif
+        font-size: 18px
+        line-height: 24px
+        font-weight: 800
+        margin-bottom: 13px
+        +desktop
+            margin-bottom: 8px
+
+    h5
+        text-transform: uppercase
+        font-size: 14px
+        font-family: "novecento_normal", serif
+        color: #6e8391
+        line-height: 1
+        margin-bottom: 9px
+        +desktop
+            margin-bottom: 7px
+
+    p.description
+        font-size: 14px
+        line-height: 24px
+        color: #495e6d
+        margin-bottom: 55px
+        +desktop
+            margin-bottom: 40px
+        +mobile
+            margin-bottom: 30px
+        +iphone
+            margin-bottom: 20px
+
+    .img-map
+        display: block
+        background-size: contain
+        background-repeat: no-repeat
+        width: 90%
+        height: 658px
+        margin-top: 70px
+        +desktop
+            height: 500px
+        +tablet
+            width: 500px
+            margin-left: auto
+            margin-right: auto
+            text-align: center
+            background-position: center
+            background-size: cover
+            height: 580px
+            margin-top: 40px
+        +mobile
+            width: 100%
+            height: 400px
+            background-size: contain
+            margin-top: 30px
+        +iphone
+            height: 300px
+            width: 90%
+
+    .row.details .span6
+        width: calc(50% - 25px)
+        +desktop
+            width: calc(50% - 15px)
+        +mobile
+            width: 100%
+
+        &:last-child
+            margin-left: 50px
+            +desktop
+                margin-left: 30px
+            +mobile
+                margin-left: 0
+
+    .full-width-img
+        height: 370px
+        +desktop
+            height: 300px
+        +tablet
+            margin-bottom: 50px
+        +mobile
+            width: 80%
+            float: right
+            height: 215px
+        +iphone
+            width: 100%
+            float: none
+            margin-bottom: 0
+
+    .img-sp4.bottom-mid
+        display: block
+        height: 270px
+        background-size: cover
+        background-position: center
+        background-repeat: no-repeat
+        position: absolute
+        width: 375px
+        left: 40%
+        bottom: -8%
+        z-index: 99
+        +desktop
+            height: 210px
+            width: 295px
+        +tablet
+            left: 10%
+            bottom: 40px
+        +mobile
+            width: 50%
+            height: 160px
+            bottom: 20px
+        +iphone
+            display: none
+
+
+.full-width.second-section
+    padding-bottom: 75px
+    padding-top: 0
+    z-index: 9
+    +background(linear-gradient(#f1fbff, #91d2e9))
+    +desktop
+        padding-bottom: 50px
+    +tablet
+        padding-bottom: 0
+    +mobile
+        padding-bottom: 30px
+    +iphone
+        padding-bottom: 20px
+
+    .row.two-columns .span6 .row-details
+        width: calc(50% - 25px)
+        +desktop
+            width: calc(50% - 15px)
+        +tablet
+            width: 100%
+            margin-left: 0
+            position: relative
+        +mobile
+            width: 100%
+
+            .span6
+                width: calc(50% - 15px)
+
+                +mobile
+                    width: 100%
+
+                &:last-child
+                    margin-left: 30px
+                    +mobile
+                        margin-left: 0
+
+        &:last-child
+            margin-left: 50px
+            +desktop
+                margin-left: 30px
+            +mobile
+                margin-left: 0
+
+    .full-width-img
+        +tablet
+            position: relative
+            bottom: 0
+            right: -100px
+            margin-bottom: 0
+        +mobile
+            right: 0
+            width: 100%
+            height: 275px
+        +iphone
+            height: 215px
+
+    .span6.margin-top
+        margin-top: 180px
+        +desktop
+            margin-top: 115px
+        +tablet
+            margin-top: 30px

@@ -1,0 +1,92 @@
+.full-width
+    display: table
+    width: 100%
+    background-color: $aqua-light
+    padding-top: 85px
+    padding-bottom: 90px
+    position: relative
+
+    h2
+        width: 40%
+        display: block
+        font-size: 30px
+        color: #000
+        font-family: $novecento_normal
+        text-transform: uppercase
+        margin-bottom: 0
+
+        strong
+            font-family: $novecento_bold
+
+    h3
+        font-size: 90px
+        font-family: $novecento_bold
+        color: $aqua
+        text-transform: uppercase
+        margin-bottom: 30px
+
+    h4
+        color: #000
+        text-transform: uppercase
+        font-family: $open-sans
+        font-size: 18px
+        line-height: 24px
+        font-weight: 800
+        margin-bottom: 13px
+
+    h5
+        text-transform: uppercase
+        font-size: 14px
+        font-family: $novecento_normal
+        color: $aqua-gray
+        line-height: 1
+        margin-bottom: 9px
+
+    p.description
+        font-size: 14px
+        line-height: 24px
+        color: $aqua-dark
+        margin-bottom: 55px
+
+    .img-map
+        display: block
+        background-size: contain
+        background-repeat: no-repeat
+        width: 90%
+        height: 658px
+        margin-top: 70px
+
+    .row.details
+        .span6
+            width: calc(50% - 50px)
+
+            &:last-child
+                margin-left: 50px
+
+    .full-width-img
+        height: 370px
+
+    .img-sp4.bottom-mid
+        display: block
+        height: 270px
+        +background-img
+        position: absolute
+        width: 20%
+        left: 44%
+        bottom: -8%
+        z-index: 99
+
+.full-width:last-of-type
+    padding: 0
+    z-index: 9
+    +background(linear-gradient($aqua-light,$aqua))
+
+    .row.two-columns
+        .span6
+            width: calc(50% - 50px)
+
+            &:last-child
+                margin-left: 50px
+
+        .span6.margin-top
+            margin-top: 200px

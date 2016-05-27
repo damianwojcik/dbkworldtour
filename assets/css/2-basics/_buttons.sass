@@ -1,0 +1,38 @@
+.button,
+button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"],
+.btn
+  display: inline-block
+  padding: 16px 65px 18px 55px
+  background-color: $green
+  border-radius: 30px
+  text-transform: uppercase
+  color: #FFF
+  text-align: center
+  font-size: 16px
+  line-height: 1
+  white-space: nowrap
+  cursor: pointer
+  box-sizing: border-box
+  font-family: $novecento_bold
+  position: relative
+
+  &::after
+      content: ''
+      width: 20px
+      height: 14px
+      background-image: url('assets/img/arrow-right.png')
+      display: block
+      position: absolute
+      right: 24px
+      top: 19px
+
+  &:hover,
+  &:active,
+  &:focus
+    color: $green
+    background-color: #FFF
+    outline: 0
+    text-decoration: none

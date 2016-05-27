@@ -1,0 +1,59 @@
+.intro
+    display: table
+    width: 100%
+    margin-bottom: 90px
+
+    .wrap
+        width: 100%
+        display: table
+        position: relative
+
+        .text-wrap
+            width: 35%
+            display: table
+            z-index: 99
+            padding-top: 30px
+
+            h2
+                font-size: 30px
+                color: #000
+                font-family: $novecento_normal
+                text-transform: uppercase
+                margin-bottom: 35px
+                letter-spacing: 0
+
+                strong
+                    display: block
+                    font-family: $novecento_bold
+
+            p
+                margin-bottom: 65px
+
+        .img-sp7
+            +background-img
+            width: 55%
+            height: 390px
+            display: block
+
+        .img-sp7.top-right
+            position: absolute
+            top: 0
+            right: 0
+            z-index: -1
+            height: 500px
+
+        .img-sp2
+            +background-img
+            width: 20%
+            height: 220px
+            display: block
+
+        .img-sp2.bottom-right
+            position: absolute
+            bottom: 0
+            right: 0
+
+        .img-sp2.bottom-right2
+            position: absolute
+            bottom: 0
+            right: calc(20% + 30px)

@@ -1,0 +1,31 @@
+a
+  color: #FFF
+  text-decoration: none
+  outline: 0
+  +transition( all 0.4s )
+
+a.icon-arrow-down
+    display: inline-block
+    padding: 10px
+    +mobile
+        padding: 5px
+
+    &:before
+        color: #fff
+        content: "\e097"
+        text-transform: none
+        font-weight: normal
+        font-style: normal
+        font-variant: normal
+        font-family: 'icomoon'
+        line-height: 1
+        font-size: 50px
+        speak: none
+        -webkit-font-smoothing: antialiased
+        -moz-osx-font-smoothing: grayscale
+        +mobile
+            font-size: 40px
+
+    &:hover
+        background-color: rgba(145, 210, 233, 0.8)
+        border-radius: 100%

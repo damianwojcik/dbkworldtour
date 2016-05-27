@@ -1,0 +1,59 @@
+.banner
+    display: table
+    width: 100%
+    +background-img
+    padding: 60px 0 120px 0
+    +tablet
+        padding-bottom: 65px
+    +mobile
+        padding-top: 25px
+    +iphone
+        padding-bottom: 40px
+
+    .wrap
+        display: table
+        height: 300px
+        padding: 60px 110px 75px 110px
+        margin: 0 auto
+        border: 2px solid #FFF
+        text-align: center
+        +mobile
+            padding: 60px 5% 70px 5%
+        +iphone
+            padding: 40px 5% 45px 5%
+
+        .text-wrap
+            width: 400px
+            display: table
+            margin: 0 auto
+            +mobile
+                width: 90%
+
+        h2
+            font-size: 36px
+            line-height: 48px
+            font-family: $novecento_bold
+            text-transform: uppercase
+            color: #FFF
+            display: inline-block
+            margin-bottom: 30px
+            +mobile
+                font-size: 30px
+                line-height: 40px
+            +iphone
+                font-size: 20px
+                line-height: 28px
+                margin-bottom: 15px
+
+        p
+            color: #224653
+            font-size: 20px
+            line-height: 28px
+            margin-bottom: 40px
+            +mobile
+                font-size: 16px
+                line-height: 24px
+            +iphone
+                font-size: 14px
+                line-height: 20px
+                margin-bottom: 30px

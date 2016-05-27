@@ -1,0 +1,141 @@
+.intro
+    display: table
+    width: 100%
+    margin-bottom: 90px
+    padding-top: 90px
+    +desktop
+        margin-bottom: 50px
+        padding-top: 75px
+    +mobile
+        margin-bottom: 40px
+        padding-top: 40px
+    +iphone
+        margin-bottom: 30px
+        padding-top: 30px
+
+    .wrap
+        width: 100%
+        display: table
+        position: relative
+
+        .text-wrap
+            width: 35%
+            display: table
+            z-index: 99
+            padding-top: 30px
+            +desktop
+                width: 42%
+                padding-top: 0
+            +tablet
+                width: 65%
+                margin: 0 auto
+            +mobile
+                width: 100%
+
+            h2
+                font-size: 30px
+                color: #000
+                font-family: $novecento_normal
+                text-transform: uppercase
+                margin-bottom: 35px
+                letter-spacing: 0
+                +desktop
+                    font-size: 26px
+                +mobile
+                    margin-bottom: 25px
+                +iphone
+                    font-size: 20px
+                    margin-bottom: 15px
+
+                strong
+                    display: block
+                    font-family: $novecento_bold
+
+            p
+                margin-bottom: 65px
+                +desktop
+                    margin-bottom: 35px
+                +iphone
+                    margin-bottom: 20px
+
+        .img-sp7
+            +background-img
+            width: 55%
+            height: 390px
+            display: block
+            +desktop
+                height: 315px
+                width: 530px
+
+        .img-sp7.top-right
+            position: absolute
+            top: 0
+            right: 0
+            z-index: -1
+            height: 500px
+            +desktop
+                height: 415px
+            +tablet
+                position: relative
+                height: 520px
+                width: 100%
+                margin-bottom: 17px
+                z-index: 9
+            +mobile
+                height: 300px
+                margin-bottom: 10px
+            +iphone
+                height: 220px
+                margin-bottom: 5px
+
+        .img-sp7.sub-img
+            +tablet
+                width: 43%
+                height: 180px
+                float: left
+            +mobile
+                width: 45%
+                height: 105px
+            +iphone
+                width: 32%
+
+
+        .img-sp2
+            +background-img
+            width: 20%
+            height: 220px
+            display: block
+            +desktop
+                height: 175px
+                width: 175px
+            +tablet
+                width: 26%
+                height: 180px
+            +mobile
+                height: 105px
+                width: 25%
+            +iphone
+                width: 32%
+
+        .img-sp2.bottom-right
+            position: absolute
+            bottom: 0
+            right: 0
+            +tablet
+                position: relative
+                float: left
+                margin-left: 2.5%
+            +iphone
+                margin-left: 2%
+
+        .img-sp2.bottom-right2
+            position: absolute
+            bottom: 0
+            right: calc(20% + 15px)
+            +tablet
+                position: relative
+                float: left
+                right: auto
+                margin-left: 2.5%
+            +iphone
+                margin-left: 2%

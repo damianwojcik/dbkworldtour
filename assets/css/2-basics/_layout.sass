@@ -1,0 +1,39 @@
+$page-width: 1170px
+
+.container
+    width: $page-width
+    +desktop
+        width: 90%
+    +mobile
+        width: 85%
+
+    .span6
+        +tablet
+            width: 100%
+            margin-left: 0
+
+        .wrap
+            +tablet
+                width: 65%
+                margin-left: auto
+                margin-right: auto
+
+.span6.margin-bottom
+    +tablet
+        margin-bottom: 60px
+    +mobile
+        margin-bottom: 30px
+    +iphone
+        margin-bottom: 20px
+
+
+.full-width.second-section .wrap
+    +tablet
+        width: 65%
+        margin: 0 auto
+    +mobile
+        width: 100%
+
+.full-width .container .span6 .wrap
+    +mobile
+        width: 100%
