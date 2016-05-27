@@ -2113,6 +2113,8 @@ aside.mobile-menu {
 @media (max-width: 768px) {
   .full-width h3 {
     font-size: 70px;
+    font-size: 50px;
+    margin-bottom: 20px;
   }
 }
 
@@ -2461,8 +2463,13 @@ aside.mobile-menu {
 }
 
 .banner {
+  background: -webkit-linear-gradient(bottom, rgba(255, 255, 255, 0) 0%, #92d3e9 100%);
+  background: -o-linear-gradient(bottom, rgba(255, 255, 255, 0) 0%, #92d3e9 100%);
+  background: -moz-linear-gradient(bottom, rgba(255, 255, 255, 0) 0%, #92d3e9 100%);
+  background: linear-gradient(bottom, rgba(255, 255, 255, 0) 0%, #92d3e9 100%);
   display: table;
   width: 100%;
+  position: relative;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -2487,6 +2494,15 @@ aside.mobile-menu {
   }
 }
 
+.banner img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
 .banner .wrap {
   display: table;
   height: 300px;
@@ -2494,6 +2510,7 @@ aside.mobile-menu {
   margin: 0 auto;
   border: 2px solid #FFF;
   text-align: center;
+  z-index: 99;
 }
 
 @media (max-width: 768px) {

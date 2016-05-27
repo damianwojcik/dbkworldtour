@@ -1,6 +1,11 @@
 .banner
+    background: -webkit-linear-gradient(bottom,  rgba(255,255,255,0) 0%, rgba(146,211,233,1) 100%)
+    background: -o-linear-gradient(bottom,  rgba(255,255,255,0) 0%, rgba(146,211,233,1) 100%)
+    background: -moz-linear-gradient(bottom,  rgba(255,255,255,0) 0%, rgba(146,211,233,1) 100%)
+    background: linear-gradient(bottom,  rgba(255,255,255,0) 0%, rgba(146,211,233,1) 100%)
     display: table
     width: 100%
+    position: relative
     +background-img
     padding: 60px 0 120px 0
     +tablet
@@ -10,6 +15,14 @@
     +iphone
         padding-bottom: 40px
 
+    img
+        width: 100%
+        height: 100%
+        position: absolute
+        top: 0
+        left: 0
+        z-index: -1
+
     .wrap
         display: table
         height: 300px
@@ -17,6 +30,7 @@
         margin: 0 auto
         border: 2px solid #FFF
         text-align: center
+        z-index: 99
         +mobile
             padding: 60px 5% 70px 5%
         +iphone
